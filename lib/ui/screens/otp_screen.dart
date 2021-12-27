@@ -160,7 +160,7 @@ class _OTPScreenState extends State<OTPScreen> {
                 ),
               ),
               otpError
-                  ? SizedBox(
+                  ? const SizedBox(
                       height: 12,
                     )
                   : Container(),
